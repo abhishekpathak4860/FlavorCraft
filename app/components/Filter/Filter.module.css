@@ -1,0 +1,19 @@
+.select_button{
+    /* border: 2px solid red; */
+   width: 326px;
+   margin-inline: auto;
+   }
+   .select_button ul{
+       display: flex;
+       list-style: none;
+       /* justify-content: space-between; */
+       gap: 10px;
+       align-items: center;
+   }
+   .select_button ul li{
+       color: white;
+       background-color: #FF4343;
+       padding: 4px;
+       border-radius: 5px;
+       cursor: pointer;
+   }

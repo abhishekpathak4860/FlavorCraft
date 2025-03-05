@@ -1,0 +1,38 @@
+
+.firstBox {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.sub1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+    gap: 16px;
+}
+ .sub1 img {
+    width: 134px;
+    height: 133px;
+    border-radius: 50%;
+}
+
+.title {
+    color: white;
+}
+
+.sub2 {
+    color: white;
+    background-color: #FF4343;
+    padding: 4px;
+    border-radius: 5px;
+    width: 57px;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
